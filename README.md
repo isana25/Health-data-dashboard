@@ -2,6 +2,9 @@
 
 An interactive data visualization dashboard for exploring global health indicators with AI-powered insights.
 
+# Live Demo - Netlify 
+Link: https://health-data-dashboard.netlify.app/
+
 ## Features
 
 - 📊 **Interactive Visualizations**: Time series, regional comparisons, and heatmaps using Plotly
