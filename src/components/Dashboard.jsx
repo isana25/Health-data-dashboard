@@ -4,7 +4,7 @@ import FilterPanel from './FilterPanel';
 import ChartContainer from './ChartContainer';
 import InsightPanel from './InsightPanel';
 import { getHealthData } from '../data/healthData';
-import { filterData, aggregateData } from '../utils/dataProcessor';
+import { filterData } from '../utils/dataProcessor';
 import { generateInsights } from '../utils/insightEngine';
 import '../styles/Dashboard.css';
 
