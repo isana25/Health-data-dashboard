@@ -56,7 +56,7 @@ export const generateInsights = (data, filters) => {
   });
 
   // Find regional leaders
-  const regions = _.uniq(data.map(d => d.region));
+  // const regions = _.uniq(data.map(d => d.region));
   filters.indicators.forEach(indicator => {
     const indicatorData = data.filter(d => d.indicator === indicator);
     const latestYear = Math.max(...indicatorData.map(d => d.year));
