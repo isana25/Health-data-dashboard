@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { calculateTrend } from './dataProcessor';
+// import { calculateTrend } from './dataProcessor';
 
 export const generateInsights = (data, filters) => {
   const insights = [];
